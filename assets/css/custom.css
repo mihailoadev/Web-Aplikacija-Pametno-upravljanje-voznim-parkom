@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+}
+
+*{
+    font-family: 'Poppins', sans-serif !important;
+}
+  
+  .btn{         
+    border: 2px solid transparent !important;   
+    border-radius: 3rem !important;
+  
+  }
+  
+
+  .btn-outline-secondary{         
+    border: 2px solid transparent !important;   
+    border-radius: 3rem !important;
+    border-color: #343a40 !important;
+  }
+
+  .btn-light-custom{
+    font-size: 16px !important;
+    color: #000 !important;   
+    background-color: #f4f6f8 !important;  
+    border-color: #f4f6f8 !important;
+    font-family: 'Poppins', sans-serif !important;      
+    border: 2px solid transparent !important;   
+    border-radius: 3rem !important;
+  }
+  
+  .btn-light:hover {
+    color: #000 !important;    
+    background-color: gainsboro !important;  
+    
+  }
+  
+  .card {   
+  background-clip: border-box !important;
+  border: 2px solid #f4f6f8 !important;
+  border-radius: 10px !important;
+}
+
+/* .card-body {
+  flex: 1 1 auto;
+  padding: 2rem 2rem;
+} */
+
+/* .card-title {
+  margin-bottom: 1rem;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+} */
+
+.dropdown-item.active, .dropdown-item:active {
+    color: black !important;
+    text-decoration: none !important;
+    background-color: white !important;
+  }
+
+  .feature-icon {
+    width: 4rem !important;
+    height: 4rem !important;
+    border-radius: .75rem !important;
+  }
+  
+  .icon-square {
+    width: 3rem !important;
+    height: 3rem !important;
+    border-radius: .75rem !important;
+  }
+  
+  .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25) !important; }
+  .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25) !important; }
+  .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25) !important; }
+  
+  .card-cover {
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+  }
+  
+  .feature-icon-small {
+    width: 3rem !important;
+    height: 3rem !important;
+  }
+
+
+  .marker {
+    position: relative !important;
+    display: inline !important;
+    width: auto !important;
+  }
+  
+  .marker-center {
+    padding-right: 0 !important;
+  }
+  
+  .marker:after {
+    content: "" !important;
+    width: 125px !important;
+    height: 30px !important;
+    position: absolute !important;
+    bottom: -25px !important;
+    right: -30px !important;
+    background-image: url("../img/marker.svg") !important;
+    background-repeat: no-repeat !important;
+  }
+  
+  .marker-center:after {
+    bottom: -30px !important;
+    left: 50% !important;
+    margin-left: -60px !important;
+  }
+  
+  @media (max-width: 575.98px) {
+    .marker {
+      padding-right: 0 !important;
+    }
+    .marker:after {
+      bottom: -30px !important;
+      left: 50% !important;
+      margin-left: -60px !important;
+    }
+  }
+
+
+  
+
+  
+
+
+
+
+
+  
+
+ 
+
+  
+  
+
+ 
